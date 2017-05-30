@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+           id="com.sanjinl.cordova.plugin.paypaladaptive"
+      version="1.0.0">
+      
+    <name>PayPalAdaptive</name>
+	<description>Add PayPal Adaptive support to your cordova apps or games</description>
+	<license>MIT</license>
+	<keywords>paypal,adaptive</keywords>
+
+
+	<engines>
+	    <engine name="cordova" version=">=3.0" />
+	</engines>
+	
+    <js-module src="lib/paypal-adaptive.js" name="PayPalAdaptive">
+        <clobbers target="window.plugins.PayPalAdaptive" />
+    </js-module>
+
+</plugin>
